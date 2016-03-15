@@ -1,0 +1,20 @@
+Package: encodeChIPqc
+Type: Package
+Title: A set of useful ChIPseq QC metrics from the ENCODE project
+Version: 0.1
+Date: 2014-05-27
+Author: Sergi Sayols <s.sayolspuig@imb-mainz.de> and Sebastian Uhrig
+    <s.uhrig@imb-mainz.de>
+Maintainer: Sergi Sayols <s.sayolspuig@imb-mainz.de>
+Description: A set of useful ChIPseq QC metrics from the ENCODE project
+Depends:
+    R (>= 3.1.0)
+Imports:
+    spp,
+    GenomicAlignments,
+    Rsamtools,
+    RColorBrewer,
+    gplots,
+    snow,
+    data.table
+License: GPL-3
