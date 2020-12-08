@@ -7,7 +7,7 @@
 plotIDR(chipTuple, idrCutoff = 0.01)
 }
 \arguments{
-\item{chipTuple}{one item of the return value of \calc{calculateIDR}}
+\item{chipTuple}{one item of the return value of calculateIDR}
 
 \item{idrCutoff}{peaks with an IDR greater than this cut-off are colored red in the scatter plot}
 }
